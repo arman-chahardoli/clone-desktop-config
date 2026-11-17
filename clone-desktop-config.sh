@@ -1,6 +1,6 @@
 #!/bin/bash
 
-vault=$(cat <<'EOF' | base64 -d | gpg --pinentry-mode -d
+vault=$(cat <<'EOF' | base64 -d | gpg --pinentry-mode loopback -d
 jA0ECQMKoPyLF7gogb//0sAKAY94JC3+ks4LF2zOKNKrvyUKe2k3mMbjEkqh+krakIjChzbQor0R
 0zBObdwWDIOn0MeuXt5B1eIswc0H/uX+pVZxCzzHXRaf8PhaayZQxTWtjU/EtvN3v9uCUKx7DTNk
 W2Whpa2hUDOJAneJ4dLdjVotm0XnChIbHP6Kp8kqHjZI+HuMxWlONk+3EEvyg1hUdP7Kk+LA5VWE
